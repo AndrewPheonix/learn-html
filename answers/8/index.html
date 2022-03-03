@@ -10,7 +10,25 @@
 
 <!--ANSWER BLOCK-->
 <div id="answer">
-  Your answer
+  <form>
+    <b>Описание</b><br><br>
+    <textarea placeholder="Enter text ..." maxlength="500" rows = "20" cols = "40" required></textarea>
+  </form><br><br><br>
+  <b>Категории</b><br><br>
+  <select required>
+    <option value="" placeholder="Выберите категорию">Выберите категорию</option>
+    <option>Наушники</option>
+      <optgroup label="Компьютеры и ноутбуки">
+        <option>Ноутбуки</option>
+        <option>Компьютеры</option>
+        <option>Мониторы</option>
+      </optgroup>
+      <optgroup label="Консоли" disabled>
+        <option>Геймпады</option>
+        <option>Игры</option>
+      </optgroup>
+  </select><br><br>
+  <button type="submit">Отправить</button>
 </div>
 
 <!--QUESTION BLOCK-->
