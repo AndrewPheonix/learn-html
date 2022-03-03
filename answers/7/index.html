@@ -10,7 +10,27 @@
 
 <!--ANSWER BLOCK-->
 <div id="answer">
-  Your answer
+  <form>
+    <b>Название товара</b><br><br>
+    <input type="text" maxlength="15"><br><br><br>
+    <b>Есть в наличии</b><br><br>
+    Да<input type="radio" value="yes">
+    Нет<input type="radio" value="no" checked>
+    Ожидается<input type="radio" value="no" disabled><br><br>
+    Цвет <input type="color" value="#e66465"><br><br><br>
+    <b>Материал</b><br><br>
+    Другой <input type="checkbox" value="other" checked><br>
+    Пластмасс <input type="checkbox" value="plastic"><br>
+    Металл <input type="checkbox" value="metal"><br><br><br>
+    <b>Фото</b><br><br>
+    <input type="file" accept="image/*" multiple><br><br><br>
+    <b>Цена</b><br><br>
+    <input type="number" min="5" max="5000"><br><br><br>
+    <b>Способ доставки</b><br><br>
+    Самовывоз <input type="checkbox" value="pickup" checked><br>
+    Почтой <input type="checkbox" value="post" checked><br><br>
+    <input type="submit" value="Отправить">
+  </form>
 </div>
 
 <!--QUESTION BLOCK-->
